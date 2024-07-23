@@ -212,6 +212,16 @@ main {
     color: #3a3a3a;
 }
 
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    /*Gallery page*/
+    #photos {
+        /*Masonry design*/
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header*/
@@ -259,6 +269,14 @@ main {
 
     #benefits-physical > div, #benefits-mental > div {
         width: 75%;
+    }
+
+    /*Gallery page*/
+    #photos {
+        /*Masonry design*/
+        column-count: 3;
+        column-gap: 0;
+    }
 }
 
 #benefits-mental > div {
@@ -271,6 +289,12 @@ main {
     /* Header*/
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+    /*Gallery page*/
+    #photos {
+        /*Masonry design*/
+        column-count: 4;
+        column-gap: 0;
     }
 
 }
