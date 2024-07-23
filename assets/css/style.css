@@ -91,6 +91,8 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero section */
@@ -198,7 +200,48 @@ main {
 }
 
 /*Sign up page*/
+#signup {
+    background: url("../images/signup-image.webp") no-repeat 75% / cover;
+    flex-grow: 1;
+    padding: 20px 10%;
+}
+
+#signup h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+#signup-form {
+    color: #fff;
+    background-color: rgba(60, 60, 60,.6);
+    padding: 30px;
+}
+
 .text-input {
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    background: transparent;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 0 5px;
+    width: 100%;
+    line-height: 25px;
+}
+
+.radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.join-button {
+    margin-top: 20px;
+    padding: 15px 32px;
+    border-radius: 2px;
+    background-color: #454b1b;
+    color: #fafafa;
+    font-size: 100%;
 }
 
 /* Footer */
