@@ -234,3 +234,34 @@ main {
     }
 
 }
+
+/* Media query: large laptops and larger (1200px and up) */
+@media screen and (min-width: 992px) {
+    /* Main content */
+    /*Reasons section */
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benefits > div {
+        flex: 1;
+    }
+
+    #benefits-physical > div {
+        align-self: flex-end;
+    }
+
+    #benefits-mental > div {
+        align-self: flex-start;
+    }
+
+    #benefits-image {
+        order: 0;
+    }
+
+    #benefits-mental {
+        order: 1;
+    }
+
+}
