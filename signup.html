@@ -39,11 +39,29 @@
           <form action="https://formdump.codeinstitute.net" id="signup-form" method="POST">
                <h2>Let's get you signed up <i class="fa-solid fa-heart-pulse"></i></h2>
                <label for="first-name">First Name</label>
-               <input id="first-name" type="text" class="text-input">
-               <label for="last-name" class="text-input">Last Name</label>
-               <input id="last-name" type="text">
-               <label for="email" class="text-input">Email Address</label>
-               <input id="email" type="email">
+               <input id="first-name" type="text" name="first-name" required class="text-input">
+               <br>
+               <label for="last-name">Last Name</label>
+               <input id="last-name" type="text" name="last-name" class="text-input">
+               <br>
+               <label for="email">Email Address</label>
+               <input id="email" type="email" name="email" required class="text-input">
+               <br>
+               <div class="radio-buttons">
+                    <div>
+                         <input type="radio" name="running-preference" value="road" id="road" required checked>
+                         <label for="road">Road</label>
+                    </div>
+                    <div>
+                         <input type="radio" name="running-preference" value="trail" id="trail">
+                         <label for="trail">Trail</label>
+                    </div>
+                    <div>
+                         <input type="radio" name="running-preference" value="both" id="both">
+                         <label for="both">Both</label>
+                    </div>
+               </div>
+               <input type="submit" value="Let's Run!">
           </form>
         </section>
    </main>
