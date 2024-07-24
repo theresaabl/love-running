@@ -207,15 +207,15 @@ main {
     padding: 20px 10% 0 10%;
 }
 
-#signup > h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
-}
-
 #signup-form {
     color: #fff;
     background-color: rgba(60, 60, 60,.6);
     padding: 30px;
+}
+
+#signup-form h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
 }
 
 .text-input {
