@@ -370,7 +370,7 @@ main {
 }
 
 /* Media query: large laptops and larger (1200px and up) */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
     /* Main content */
     /*Reasons section */
     #benefits {
